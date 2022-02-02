@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HedgehogTech_TestTask" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.HedgehogTech_TestTask.MyTextView" parent="Widget.AppCompat.TextView">
+        <item name="background">@color/white</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Theme.HedgehogTech_TestTask.MyEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/custom_edit_text</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textColorHint">@color/secondary_text</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:hint">@string/count_of_jokes</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:drawableStart">@drawable/ic_search_20</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+
+    <style name="Theme.HedgehogTech_TestTask.MyToolBar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Theme.HedgehogTech_TestTask.MyLinearLayout">
+        <item name="android:background">@color/white</item>
+    </style>
+
+</resources>

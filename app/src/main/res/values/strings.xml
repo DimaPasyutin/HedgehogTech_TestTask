@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HedgehogTech_TestTask</string>
+    <string name="title_jokes">Jokes</string>
+    <string name="title_web_view">Web</string>
+    <string name="api_info">Api info</string>
+    <string name="switch_on_internet">Включите интернет</string>
+    <string name="positive_button_ok">Ок</string>
+    <string name="count_of_jokes">Введите количество шуток</string>
+</resources>
