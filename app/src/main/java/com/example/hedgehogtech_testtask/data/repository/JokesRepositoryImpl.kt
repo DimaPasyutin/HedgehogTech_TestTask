@@ -18,6 +18,7 @@ class JokesRepositoryImpl(private val jokesApi: JokesApi): JokesRepository {
             .subscribeOn(Schedulers.io())
     }
 
+    @Synchronized
     override fun saveAlbumsInMemoryCache(newJokes: List<Joke>) {
         if (jokesInMemoryCache == newJokes) return
         jokesInMemoryCache = newJokes
